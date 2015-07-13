@@ -353,12 +353,13 @@ module StripeMock
           :customer => nil,
           :country => 'US',
           :name => nil,
-          :address_line1 => nil,
-          :address_line2 => nil,
-          :address_city => nil,
-          :address_state => nil,
-          :address_zip => nil,
-          :address_country => nil
+          name: "Johnny App",
+          address_line1: "123 State Street",
+          address_line2: "Suite 220",
+          address_city: "Santa Barbara",
+          address_state: "California",
+          address_zip: "93101",
+          address_country: "US"
         }
       }.merge(params)
     end
